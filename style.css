@@ -1888,7 +1888,7 @@ body.dark-mode {
 }
 
 .dark-mode .menu__link::before, .menu__link::after {
-  background-color: var(--color-darker-dark);
+  background-color: var(--color-secondary);
 }
 
 .dark-mode .menu__item:hover > .menu__link {
