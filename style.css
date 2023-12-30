@@ -8,7 +8,7 @@
 :root {
   --color-primary: #fff;
   --color-darker: #001028;
-  --color-darker-alpha: #00102881;
+  --color-darker-alpha: rgba(0, 16, 40, 0.506);
   --color-yellow: #f4b400;
   --color-green: #4caf50;
   --color-red: #f44336;
@@ -636,7 +636,7 @@ blockquote {
   border-radius: 15px;
   
   &:after {
-    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 30%,rgba(0,0,0,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(0, 16, 40, 0) 30%,rgba(0, 16, 40, 0.8) 100%);
     content: '';
     height: 100%;
     left: 0;
@@ -673,18 +673,17 @@ blockquote {
 }
 
 
-.contribute-wrapper .img {
-  background-attachment: fixed;
+.contribute-wrapper .img.parallax {
   background-position: center center;
   background-size: cover;
-  height: 10rem;
+  height: 5rem;
   position: relative;
   width: 100%;
   border-radius: 15px;
 
 
   &:after {
-    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 30%,rgba(0,0,0,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(0, 16, 40, 0) 30%,rgba(0, 16, 40, 0.8) 100%);
     content: '';
     height: 100%;
     left: 0;
@@ -695,9 +694,9 @@ blockquote {
 
   }
 }
+
 .contribute-wrapper .img.parallax {
   background-image: url(./images/hero.png);
-
 }
 
 
@@ -802,6 +801,19 @@ blockquote {
   .contributor-box {
       width: 60%;
       margin-left: 20px; /* Move the box to the left on larger screens */
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .contribute-banner {
+    background-size: contain;
+    height: 7rem;
+  }
+  
+  .contribute-wrapper .img {
+    background-size: cover;
   }
 }
 
@@ -1079,7 +1091,8 @@ footer p, footer span{
 }
 
 .red-btn:hover{
-  background-color: var(--color-darker);
+  background-color: var(--color-secondary);
+  color: var(--color-darker);
   transition:none;
 }
 
