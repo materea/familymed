@@ -522,6 +522,7 @@ blockquote {
 }
 
 
+
 .contribute-cta p, .contribute-cta span{
   margin: 0;
   font-size: 0.5rem;
@@ -1945,7 +1946,7 @@ input[type="checkbox"] {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 999;
+  z-index: 98;
   top: 0;
   left: 0;
   background-color: var(--color-darker);
