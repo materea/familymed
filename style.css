@@ -1974,25 +1974,26 @@ input[type="checkbox"] {
 
 .toggle-btn {
   position: relative;
-  top: 10px;
-  left: 10px;
-  background-color: var(--color-red);
+  top: 15px;
+  left: 15px;
+  background-color: var(--color-secondary);
   border: none;
-  color: var(--color-darker-dark);
+  color: var(--color-darker);
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: .7rem;
+  font-size: .9rem;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 7px;
 }
 
 .sidebar .close-btn {
   position: absolute;
   top: 10px;
   right: 10px;
+  font-size: .7rem;
 }
 
 .toggle-menu {
@@ -2001,7 +2002,7 @@ input[type="checkbox"] {
 
 #toggleSidebarBtn:hover,
 #closeSidebarBtn:hover {
-  background-color: var(--color-red);
+  background-color: var(--color-secondary);
 }
  /* END OF SIDEBAR */
 
