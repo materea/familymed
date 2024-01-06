@@ -152,3 +152,56 @@ document.addEventListener("scroll", function() {
 
 
 
+document.addEventListener('DOMContentLoaded', function () {
+  // Array of topics - you can dynamically generate this from your existing content
+  var topics = [
+    "Introduction to Family Medicine",
+    "The Family in Health and Disease",
+    "Family Medicine Tools",
+    "Basics of Communication and Interviewing skills in Family Medicine",
+    "Medical Documentation",
+    "Medical Ethics in Family Practice",
+    "Family in Health Promotion and Disease Prevention",
+    "Spirituality in Healthcare",
+    "Healthcare Financing",
+    "Complementary and Alternative Medicine",
+    "Patient-Centered Clinical Methods",
+    "Evidence-Based Medicine"
+    
+    // Add more topics as needed
+  ];
+
+  // Function to create sidebar menu items
+  function createSidebarMenu() {
+    var sidebarMenu = document.querySelector('.toggle-menu');
+    topics.forEach(function (topic) {
+      var listItem = document.createElement('li');
+      var link = document.createElement('a');
+      link.href = '../lectures/' + topic.toLowerCase().replace(/\s+/g, '-') + '.html'; // Adjust the href based on your file structure
+      link.textContent = topic;
+      listItem.appendChild(link);
+      sidebarMenu.appendChild(listItem);
+    });
+  }
+
+  // Function to toggle the sidebar
+  function toggleSidebar() {
+    var sidebar = document.getElementById('sidebar');
+    sidebar.style.width = '250px';
+  }
+
+  // Function to close the sidebar
+  function closeSidebar() {
+    var sidebar = document.getElementById('sidebar');
+    sidebar.style.width = '0';
+  }
+
+  // Attach event listener to the toggle button
+  document.getElementById('toggleSidebarBtn').addEventListener('click', toggleSidebar);
+
+  // Attach event listener to the close button
+  document.getElementById('closeSidebarBtn').addEventListener('click', closeSidebar);
+
+  // Create the sidebar menu on page load
+  createSidebarMenu();
+});
