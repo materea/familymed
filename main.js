@@ -153,7 +153,7 @@ document.addEventListener("scroll", function() {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Array of topics - you can dynamically generate this from your existing content
+  // Array of topics 
   var topics = [
     "Introduction to Family Medicine",
     "The Family in Health and Disease",
@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function () {
     "Patient-Centered Clinical Methods",
     "Evidence-Based Medicine"
     
-    // Add more topics as needed
+    // more topics as needed
   ];
 
   // Function to create sidebar menu items
