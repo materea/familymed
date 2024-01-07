@@ -1953,7 +1953,7 @@ input[type="checkbox"] {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  z-index: 99;
+  z-index: 91;
 }
 
 .sidebar a {
@@ -1990,7 +1990,7 @@ input[type="checkbox"] {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 7px;
-  z-index: 98;
+  z-index: 90;
 }
 
 .sidebar .close-btn {
