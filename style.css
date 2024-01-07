@@ -1984,7 +1984,8 @@ input[type="checkbox"] {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: .9rem;
+  font-size: 1.3rem;
+  font-weight: 900;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 7px;
@@ -1995,6 +1996,8 @@ input[type="checkbox"] {
   top: 10px;
   right: 10px;
   font-size: .7rem;
+  font-weight: 500;
+  padding: 10px 10px;
 }
 
 .toggle-menu {
