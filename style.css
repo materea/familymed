@@ -2011,6 +2011,14 @@ input[type="checkbox"] {
 #closeSidebarBtn:hover {
   background-color: var(--color-secondary);
 }
+
+.toggle-menu li.current-page a {
+  background-color: var(--color-secondary); /* Highlight color for the current page */
+  color: var(--color-darker); /* Text color for the current page */
+}
+
+
+
  /* END OF SIDEBAR */
 
 /* BEGINNING OF GETTING STARTED  */
