@@ -794,29 +794,7 @@ blockquote {
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 600px) {
-  .contributors-header {
-      margin-bottom: 20px; /* Adjusted space below contributors header for larger screens */
-  }
 
-  .contributor-box {
-      width: 60%;
-      margin-left: 20px; /* Move the box to the left on larger screens */
-  }
-
-}
-
-@media only screen and (max-width: 600px) {
-
-  .contribute-banner {
-    background-size: contain;
-    height: 7rem;
-  }
-  
-  .contribute-wrapper .img {
-    background-size: cover;
-  }
-}
 
 
 
@@ -1976,7 +1954,7 @@ input[type="checkbox"] {
 
 .toggle-btn {
   position: fixed;
-  bottom: 5px;
+  bottom: 15px;
   left: 15px;
   background-color: var(--color-secondary);
   border: none;
@@ -2001,17 +1979,14 @@ input[type="checkbox"] {
   font-weight: 500;
   padding: 8px 15px;
   background-color: var(--color-red);
-  color: var(--color-darker-dark);
+  color: var(--color-primary);
 }
 
 .toggle-menu {
   width: 250px;
 }
 
-/* #toggleSidebarBtn:hover,
-#closeSidebarBtn:hover {
-  background-color: var(--color-secondary);
-} */
+
 
 .toggle-menu li.current-page a {
   background-color: var(--color-secondary); /* Highlight color for the current page */
@@ -2261,6 +2236,11 @@ body.dark-mode {
 .dark-mode .contributor-description {
   color: var(--color-darker-dark);
 }
+
+.dark-mode .getting-started-card h1{
+ color: var(--color-darker);
+}
+
 /* Styling for active (pressed) state */
 .comment-button:active {
   background-color: var(--color-secondary-dark);
@@ -2366,4 +2346,31 @@ body.dark-mode {
   }
 
 
+  @media only screen and (min-width: 600px) {
+    .contributors-header {
+        margin-bottom: 20px; /* Adjusted space below contributors header for larger screens */
+    }
   
+    .contributor-box {
+        width: 60%;
+        margin-left: 20px; /* Move the box to the left on larger screens */
+    }
+  
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .contribute-banner {
+      background-size: contain;
+      height: 7rem;
+    }
+    
+    .contribute-wrapper .img {
+      background-size: cover;
+    }
+  
+    .getting-started-card{
+      width: 90%;
+  
+    }
+  }
