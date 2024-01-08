@@ -11,7 +11,7 @@
   --color-darker-alpha: rgba(0, 16, 40, 0.506);
   --color-yellow: #f4b400;
   --color-green: #4caf50;
-  --color-red: #45a049;
+  --color-red: #ff3333;
   --color-secondary: #57a2f8;
   --color-secondary-lighter: #f4f4f4;
   --color-secondary-alpha: #57a2f85f;
@@ -2001,16 +2001,18 @@ input[type="checkbox"] {
   font-weight: 500;
   padding: 10px 20px;
   width: 90%;
+  background-color: var(--color-red);
+  color: var(--color-darker-dark);
 }
 
 .toggle-menu {
   width: 250px;
 }
 
-#toggleSidebarBtn:hover,
+/* #toggleSidebarBtn:hover,
 #closeSidebarBtn:hover {
   background-color: var(--color-secondary);
-}
+} */
 
 .toggle-menu li.current-page a {
   background-color: var(--color-secondary); /* Highlight color for the current page */
@@ -2025,7 +2027,6 @@ input[type="checkbox"] {
 
 
 .getting-started {
-  background: url(./images/fam-med.png) no-repeat center center fixed; 
   border-radius: 10px;
   background-size: cover;
   height: 100%;
