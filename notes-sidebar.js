@@ -14,7 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
       "Healthcare Financing",
       "Complementary and Alternative Medicine",
       "Patient-Centered Clinical Methods",
-      "Evidence-Based Medicine"
+      "Evidence-Based Medicine",
+      "NHIS and NHIA"
+
       // Add more topics as needed
     ];
 
