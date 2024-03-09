@@ -15,8 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
       "Complementary and Alternative Medicine",
       "Patient-Centered Clinical Methods",
       "Evidence-Based Medicine",
-      "NHIS and NHIA"
-
+      "NHIS and NHIA",
+      "Family Medicine Approach to the Management of Domestic Violence",
+      "Emergency Care in Family Medicine",
+      "",
       // Add more topics as needed
     ];
 
