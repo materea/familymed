@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
       "Emergency Care in Family Medicine",
       "Chronic Disease Screening and Prevention",
       "The Concept of Holistic Care in Family Medicine",
+      "Domiciliary Care",
+      "Human Sexuality and Sexual Dysfunction",
       // Add more topics as needed
     ];
 
