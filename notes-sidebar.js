@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "NHIS and NHIA",
       "Family Medicine Approach to the Management of Domestic Violence",
       "Emergency Care in Family Medicine",
-      "Chronic Disease Screening And Prevention",
+      "Chronic Disease Screening and Prevention",
       "The Concept of Holistic Care in Family Medicine",
       // Add more topics as needed
     ];
