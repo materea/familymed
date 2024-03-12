@@ -22,6 +22,13 @@ document.addEventListener('DOMContentLoaded', function () {
       "The Concept of Holistic Care in Family Medicine",
       "Domiciliary Care",
       "Human Sexuality and Sexual Dysfunction",
+      "Introduction to Palliative and End of Life Care",
+      "",
+      "",
+      "",
+      "",
+
+      
       // Add more topics as needed
     ];
 
