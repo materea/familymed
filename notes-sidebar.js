@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Domiciliary Care",
       "Human Sexuality and Sexual Dysfunction",
       "Introduction to Palliative and End of Life Care",
-      "",
+      "Lifestyle Medicine in Disease Prevention and Management",
       "",
       "",
       "",
