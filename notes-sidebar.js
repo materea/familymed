@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Human Sexuality and Sexual Dysfunction",
       "Introduction to Palliative and End of Life Care",
       "Lifestyle Medicine in Disease Prevention and Management",
-      "",
+      "Common Geriatric and Holistic Care of the Elderly",
       "",
       "",
 
