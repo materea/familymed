@@ -27,6 +27,17 @@ document.addEventListener('DOMContentLoaded', function () {
       "Common Geriatric Diseases and Holistic Care of the Elderly",
       "Travel Medicine",
       "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
 
       
       // Add more topics as needed
